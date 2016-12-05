@@ -9,10 +9,18 @@
     <body>
         {{-- @if (Auth::check()) --}}
         <header>
-            <h1><a class="logo" href="/">Julia Rose</a></h1>
+            <div class="wrapper">
+                <div class="container">
+                    <h1><a class="logo" href="/">Julia Rose</a></h1>
+                </div>
+                <div class="container">
+                    <a id="instagram" class="button" href="https://www.instagram.com/juliafarbman/" target="_blank"></a>
+                    <a id="deviant" class="button" href="http://julia--rose.deviantart.com" target="_blank"></a>
+                </div>
+            </div>
         </header>
         {{-- @endif --}}
-            @yield('content')
+        @yield('content')
         </section>
         <script type="text/javascript" src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('assets/js/jquery.pjax.min.js') }}"></script>
