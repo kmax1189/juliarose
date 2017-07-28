@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    height: 77px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1010px;
+        padding: 0 20px;
+
+        .container {
+            display: flex;
+            align-items: center;
+
+            .logo {
+                width: 200px;
+                height: 35px;
+                background-image: url(/assets/img/logo.png);
+                background-repeat: no-repeat;
+                text-indent: -99999px;
+            }
+
+            .button {
+                margin: 0 5px;
+            }
+
+             #instagram {
+                height: 35px;
+                width: 35px;
+                background-image: url(/assets/img/insta.png);
+                background-repeat: no-repeat;
+            }
+
+             #deviant {
+               height: 35px;
+               width: 35px;
+               background-image: url(/assets/img/devi.png);
+               background-repeat: no-repeat;
+            }
+        }
+    }
+}
