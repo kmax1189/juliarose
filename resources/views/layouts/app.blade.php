@@ -14,7 +14,7 @@
                     <h1><a class="logo" href="/">Julia Rose</a></h1>
                 </div>
                 <div class="container">
-                    <a id="instagram" class="button" href="https://www.instagram.com/juliafarbman/" target="_blank"></a>
+                    <a id="instagram" class="button" href="https://www.instagram.com/badstrawbz/" target="_blank"></a>
                     <a id="deviant" class="button" href="http://julia--rose.deviantart.com" target="_blank"></a>
                 </div>
             </div>
